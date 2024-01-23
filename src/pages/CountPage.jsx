@@ -1,11 +1,13 @@
+import { Component } from "react"
 
 
 
-export function CountPage() {
-
-    return (
-        <section className="count-page">
-            <h2>Count</h2>
-        </section>
-    )
+export class CountPage extends Component {
+    render() {
+        return (
+            <section className="count-page">
+                <h2>Count</h2>
+            </section>
+        )
+    }
 }

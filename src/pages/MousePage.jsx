@@ -1,11 +1,13 @@
+import { Component } from "react"
 
 
 
-export function MousePage() {
-
-    return (
-        <section className="mouse-page">
-            <h2>Mouse</h2>
-        </section>
-    )
+export class MousePage extends Component {
+    render() {
+        return (
+            <section className="mouse-page">
+                <h2>Mouse</h2>
+            </section>
+        )
+    }
 }
